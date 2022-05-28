@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>First Page</title>
+    <link rel="stylesheet" href="layout.css" type="text/css">
   </head>
   <body>
     <nav>
@@ -12,6 +13,29 @@
         <li><a href="images.html">Images</a></li>
       </ul>
     </nav>
-    <section></section>
+    <section>
+        <h1>Message Us</h1>
+      <form>
+        <fieldset>
+          <div>
+            <legend>Name</legend>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <legend>Email</legend>
+            <input type="text" name="email" />
+          </div>
+          <div>
+            <legend>Have you seen Missy?</legend>
+            <input type="checkbox" name="seen" />
+          </div>
+          <div>
+              <legend>Message</legend>
+              <textarea name="message"></textarea>
+          </div>
+          <button type="button" name="send" />Send</button>
+        </fieldset>
+      </form>
+    </section>
   </body>
 </html>
